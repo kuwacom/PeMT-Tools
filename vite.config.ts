@@ -5,7 +5,7 @@ const manifest = defineManifest({
     manifest_version: 3,
     name: "PeMT-Tools",
     description: "PeMTのツール",
-    version: "0.0.0",
+    version: "0.1.0",
     content_scripts: [
         {
             matches: [
@@ -24,7 +24,7 @@ const manifest = defineManifest({
             ],
             js: [
                 "src/exec.ts"
-            ]
+            ],
         }
     ]
 });

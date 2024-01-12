@@ -1,0 +1,21 @@
+#controls {
+    display: flex;
+}
+
+.pemttcredit {
+    height: 80%;
+    padding: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: black;
+    margin-right: 50px;
+    border-radius: 2px;
+}
+
+.gaming {
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: gaming2 6s linear infinite;
+}
+@keyframes gaming2 {
+    100% { background-position-x: 200%; }
+}

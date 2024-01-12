@@ -1,0 +1,20 @@
+#fuck {
+    background-color: #13a0ff;
+    border-radius: 4px;
+}
+
+.excuteB {
+    color: black;
+    width: 50% !important;
+}
+
+.rainbow {
+    border-radius: 4px;
+    animation: gaming1 2s linear infinite;
+}
+@keyframes gaming1 {
+    0% { background-color: Magenta; }
+    33% { background-color: yellow; }
+    66% { background-color: Cyan; }
+    100% { background-color: Magenta; }
+}
