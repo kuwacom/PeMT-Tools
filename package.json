@@ -2,6 +2,8 @@
   "name": "pemt-tools",
   "private": true,
   "version": "0.0.0",
+  "author": "kuwa",
+  "repository": "https://github.com/kuwacom/PeMT-Tools",
   "type": "module",
   "scripts": {
     "dev": "vite",

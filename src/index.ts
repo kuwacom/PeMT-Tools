@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
 
     const controls = document.getElementById('controls');
     if (controls) controls.innerHTML = `
-    <p class="pemttcredit gaming">PeMT-Tools - v${projectVersion} - 導入済み</p>
+    <a href="https://github.com/kuwacom/PeMT-Tools" class="pemttcredit gaming">PeMT-Tools - v${projectVersion} - 導入済み</a>
     ` + controls.innerHTML
 
 });
