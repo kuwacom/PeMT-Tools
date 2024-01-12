@@ -1,0 +1,16 @@
+{
+  "name": "pemt-tools",
+  "version": "0.0.0",
+  "description": "PeMTのツール",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./dist/index.js",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "kuwa",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "^0.0.256"
+  }
+}

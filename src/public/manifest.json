@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "PeMT-Tools",
+    "description": "PeMTのツール",
+    "version": "0.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://pemt.trusted-host.online/*"
+            ],
+            "js": [
+                "index.js"
+            ],
+            "css": [
+                "global.css"
+            ]
+        }
+    ]
+}
