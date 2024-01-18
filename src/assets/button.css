@@ -1,12 +1,21 @@
-#fuck {
-    background-color: #13a0ff;
-    border-radius: 4px;
+.redButton {
+    background-color: #ff3F2E
 }
+
+.blueButton {
+    background-color: #13a0ff;
+}
+
 
 .excuteB {
     color: black;
     width: 50% !important;
 }
+.einput {
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 
 .rainbow {
     border-radius: 4px;
