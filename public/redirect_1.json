@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "regexSubstitution": "https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.3/\\1"
+            }
+        },
+        "condition": {
+            "regexFilter": "https://cdnjs\\.cloudflare\\.com/ajax/libs/ace/1\\.2\\.0/(.*)",
+            "resourceTypes": [
+                "script",
+                "stylesheet"
+            ]
+        }
+    }
+]

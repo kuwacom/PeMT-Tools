@@ -1,18 +1,15 @@
 import './assets/main.css';
 
-const projectVersion = "0.1.0";
+const projectVersion = "1.0.0";
 
-window.addEventListener('load', () => {
-    console.log("Ready PeMT-Tools!!");
-    
-    const restrict = document.getElementById('restrict');
-    restrict?.remove();
+console.log("Ready PeMT-Tools!!");
 
-    const controls = document.getElementById('controls');
-    if (controls) controls.innerHTML = `
-    <a href="https://github.com/kuwacom/PeMT-Tools" class="pemttcredit gaming">PeMT-Tools - v${projectVersion} - 導入済み</a>
-    ` + controls.innerHTML
+const restrict = document.getElementById('restrict');
+restrict?.remove();
 
-});
+const controls = document.getElementById('controls');
+if (controls) controls.innerHTML = `
+<a href="https://github.com/kuwacom/PeMT-Tools" class="pemttcredit gaming">PeMT-Tools - v${projectVersion} - 導入済み</a>
+` + controls.innerHTML;
 
 export { projectVersion }
