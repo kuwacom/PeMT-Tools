@@ -32,7 +32,7 @@ const manifest = defineManifest({
             ],
             resources: [
                 'override.js',
-                'ext-language_tools.js'
+                'ext-language_tools.js',
             ]
         }
     ],
