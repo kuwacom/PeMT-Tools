@@ -10,7 +10,6 @@
 //     }
 // });
 
-
 const languageTools = document.createElement('script');
 languageTools.src = chrome.runtime.getURL('ext-language_tools.js');;
 document.body.appendChild(languageTools);
