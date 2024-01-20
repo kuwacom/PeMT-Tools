@@ -1,6 +1,6 @@
 import './assets/main.css';
 
-const projectVersion = "1.0.0";
+const projectVersion = "1.1.0";
 
 console.log("Ready PeMT-Tools!!");
 

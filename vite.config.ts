@@ -5,7 +5,7 @@ const manifest = defineManifest({
     manifest_version: 3,
     name: 'PeMT-Tools',
     description: 'PeMTのツール',
-    version: '1.0.0',
+    version: '1.1.0',
     permissions: [
         'declarativeNetRequest',
         'declarativeNetRequestFeedback',

@@ -5,9 +5,6 @@
 //     // console.log(window)
 // }, 0);
 
-console.log("=====================================================")
-
-
 ace.require("ace/ext/language_tools");
 editor.setOptions({
     enableBasicAutocompletion: true,
@@ -29,7 +26,7 @@ function changeThemaCSSPriority() {
     $('head').append(style);
 }
 
-$(function(){
+$(function () {
     // #editorのクラスの変更を監視
     const target = document.querySelector('#editor');
     const observer = new MutationObserver(function (mutations) {

@@ -19,7 +19,7 @@ emmetCore.src = chrome.runtime.getURL('https://cloud9ide.github.io/emmet-core/em
 document.body.appendChild(emmetCore);
 
 
-// document.addEventListener('overrideScript', (e) => {
+// document.addEventListener('RW759_connectExtension', (e) => {
 //     // @ts-ignore
 //     const _window: Window & typeof globalThis = e.detail;
 //     console.log("Done Load!!");

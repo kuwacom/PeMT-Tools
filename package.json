@@ -1,7 +1,7 @@
 {
   "name": "pemt-tools",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "kuwa",
   "repository": "https://github.com/kuwacom/PeMT-Tools",
   "type": "module",
